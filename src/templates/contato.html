@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{%block navbar%}
+    <a href="./home">Home</a>
+    <h1> | </h1>
+    <a href="./quemSomos">Quem Somos</a>
+    <h1> | </h1>
+    <a>Contato</a>
+{% endblock %}
+{% block conteudo %}
+    <h1>Entre em contato</h1>
+    <p>Descrição sobre o contato, descrição sobre o contato, descrição sobre o contato, descrição sobre o contato, descrição sobre o contato, descrição sobre o contato.</p>
+    <hr/>
+    <form>
+        Seu e-mail: <br />
+        <input class="inputText" type="text" placeholder="Insira um email"> <br />
+        Assunto: <br />
+        <input class="inputText" type="text" placeholder="Insira um assunto"> <br />
+        Descrição:<br />
+        <textarea name="Descrição" cols="14" rows="3" placeholder="Insira uma descrição"></textarea>
+        <br />
+        <input class="inputButton" type="submit" value="Enviar">
+    </form>
+{% endblock %}

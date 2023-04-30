@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="../static/css/normalize.css">
+  
+  <body>
+    <!--    Espaçamento Navbar  !-->
+    <div class="backgroundNavbar">
+        <hr>
+        <div>
+            <img src="./../static/img/logo.png">
+        </div>
+    </div>
+
+    <!--    Navbar Fixo !-->
+    <nav class="navbar">
+        <!--    Barra Azul  !-->
+        <hr>
+        <!--    Navbar  !-->
+        <div>
+            <div class="startEnd"></div>
+            <img src="./../static/img/logo.png" alt="imagem_logo">
+            <div class="center"></div>
+            {%block navbar%}
+            {% endblock %}
+            <div class="startEnd"></div>
+        </div>
+    </nav>
+
+    <!--    Conteúdo !-->
+    {% block conteudoExtra %}
+    {% endblock %}
+    <div class="content">
+      <a class="startEnd"></a>
+      <div class="center">
+        {% block conteudo %}
+        {% endblock %}
+      </div>
+      <a class="startEnd"></a>
+    </div>
+    <footer>Todos os direitos reservados</footer>
+  </body>
+</html>

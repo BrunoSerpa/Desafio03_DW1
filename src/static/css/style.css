@@ -1,0 +1,48 @@
+/* CORPO */
+body{margin: auto}
+/* MARGEM CONTEÚDO */
+.startEnd{flex: 1}
+/* CONTEÚDO */
+.content{display:flex; width: 100%}
+.center{flex: 10}
+/* RODAPÉ */
+footer{
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center
+}
+
+/* NAVBAR */
+nav hr{
+    background: blueviolet;
+    height: 6px;
+    margin-top: auto;
+    position:relative;
+    top: 0;
+}
+
+/*ESPAÇAMENTO TOPO*/
+.backgroundNavbar{padding: 10px}
+.backgroundNavbar div{display: flex}
+
+/* NAVBAR FIXO */
+.navbar{
+    background-color: white;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.navbar div{
+    align-items: center;
+    display: flex;
+    padding: 10px 0;
+}
+.navbar .center{flex: 8}
+.navbar img{flex: 2}
+.navbar h1{font-size: 20px; margin: 0 10px}
+.navbar a{color: purple}
+.navbar a:any-link{color: blue}
+.navbar a:hover{color: black}

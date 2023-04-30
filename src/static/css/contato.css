@@ -1,0 +1,9 @@
+/* FORMULÁRIO */
+textarea{
+    width:301px;
+    font-size: 15px;
+    resize:both;
+}
+textarea::placeholder{color: gray}
+.inputText{font-size: 15px; width: 300px}
+.inputText::placeholder{color: gray}
