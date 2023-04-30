@@ -11,13 +11,12 @@
     <p>Descrição sobre o contato, descrição sobre o contato, descrição sobre o contato, descrição sobre o contato, descrição sobre o contato, descrição sobre o contato.</p>
     <hr/>
     <form>
-        Seu e-mail: <br />
-        <input class="inputText" type="text" placeholder="Insira um email"> <br />
-        Assunto: <br />
-        <input class="inputText" type="text" placeholder="Insira um assunto"> <br />
-        Descrição:<br />
-        <textarea name="Descrição" cols="14" rows="3" placeholder="Insira uma descrição"></textarea>
-        <br />
+        <label for="email">Seu e-mail:</label><br/>
+        <input class="inputText" type="email" placeholder="Insira um email"><br/>
+        <label for="assunto">Assunto:</label><br/>
+        <input class="inputText" type="text" placeholder="Insira um assunto"><br/>
+        <label for="assunto">Descrição:<br/></label>
+        <textarea name="descricao" type="text "placeholder="Insira uma descrição"></textarea><br/>
         <input class="inputButton" type="submit" value="Enviar">
     </form>
 {% endblock %}
