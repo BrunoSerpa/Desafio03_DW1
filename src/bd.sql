@@ -1,4 +1,5 @@
-use nomeDoDataBase
+create database nomeDoDataBase;
+use nomeDoDataBase;
 
 create table Contato(
 	email_contato varchar(70) not null,
